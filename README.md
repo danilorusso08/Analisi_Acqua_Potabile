@@ -23,5 +23,5 @@ Il dataset è composto da $9$ features più la classe target, nello specifico:
 - Potability: Indica se l'acqua è sicura per il consumo umano.
 
 <p align="center">
-<img src="https://github.com/archd3sai/Customer-Churn-Analysis-and-Prediction/blob/master/Images/tenure-churn.png" width="600" height="300"/>
+<img src="images/Distribuzione2.png" width="600" height="300"/>
 </p>
