@@ -28,6 +28,6 @@ Il dataset è composto da $9$ features più la classe target, nello specifico:
 
 Nello specifico nella visualizzazione delle distribuzioni è evidente lo sbilanciamento della classe target:
 
-<p align="center">
-<img src="images/target.png" width="561" height="413"/>
+<p align="left">
+<img src="images/target.png" width="460" height="340"/>
 </p>
