@@ -1,4 +1,4 @@
-# Analisi_Acqua_Potabile
+# Analisi Acqua Potabile
 
 In questo progetto, l'obiettivo è quello di costruire un modello che determini la potabilità dell'acqua in base alle sue caratteristiche chimiche.<br><br>
 
