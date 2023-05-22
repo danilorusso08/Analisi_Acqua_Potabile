@@ -10,4 +10,14 @@ In questo progetto, l'obiettivo è quello di costruire un modello che determini 
 - Creare il milgiore modello di classificazione utilizzando le migliori quattro features del dataset (Modello2).
 
 ## Analisi
-Il dataset è composto da $9$
+Il dataset è composto da $9$ features più la classe target, nello specifico:
+- ph: Indica il ph dell'acqua (0 to 14).
+- Hardness: Capacità dell'acqua di precipitare in sapone mg/L.
+- Solids: Solidi totali disciolti in ppm.
+- Chloramines: Quantità di Clorammine in ppm.
+- Sulfate: Quantità di Solfati disciolti in mg/L.
+- Conductivity: Conducibilità elettrica dell'acqua in μS/cm.
+- Organic_carbon: Quantità di carbonio organico in ppm.
+- Trihalomethanes: Quantità di Trialometani in μg/L.
+- Turbidity: Misura delle proprietà di diffusione della luce dell'acqua in NTU.
+- Potability: Indica se l'acqua è sicura per il consumo umano.
