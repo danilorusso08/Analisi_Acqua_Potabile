@@ -23,5 +23,5 @@ Il dataset è composto da $9$ features più la classe target, nello specifico:
 - Potability: Indica se l'acqua è sicura per il consumo umano.
 
 <p align="center">
-<img src="images/Distribuzione2.png" width="600" height="800"/>
+<img src="images/Distribuzione2.png" width="1000" height="800"/>
 </p>
