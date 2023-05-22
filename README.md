@@ -31,3 +31,9 @@ Nello specifico nella visualizzazione delle distribuzioni è evidente lo sbilanc
 <p align="left">
 <img src="images/target.png" width="450" height="340"/>
 </p>
+
+Questo sbilanciamento della classe target, potrebbe compromettere il modello nel caso in cui si eseguisse un campionamento casuale (random sampling), per ovviare a questo problema viene utilizzato come campionamento lo **startified sampling** che tiene conto della distribuzione delle etichette di classe.
+
+<p align="left">
+<img src="images/outliers.png" width="1000" height="500"/>
+</p>
