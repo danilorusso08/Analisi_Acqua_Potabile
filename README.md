@@ -67,3 +67,17 @@ Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il G
   <img src="images/rep_rf.png" width="400" height="190">
   <img src="images/rep_gb.png" width="400" height="190">
 </p>
+<div align="center">
+  <div style="display: flex; justify-content: space-between;">
+    <div style="text-align: left;">
+      Random Forest
+      <img src="images/cmatrix_rf.png" width="400" height="333">
+      <img src="images/rep_rf.png" width="400" height="190">
+    </div>
+    <div style="text-align: right;">
+      Gradient
+      <img src="images/cmatrix_gb.png" width="400" height="333">
+      <img src="images/rep_gb.png" width="400" height="190">
+    </div>
+  </div>
+</div>
