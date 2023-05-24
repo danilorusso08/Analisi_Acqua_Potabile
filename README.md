@@ -88,7 +88,6 @@ Ottenendo una accuracy del 64% per il Gradient Boosting e 61% per la Logistic Re
 Tra i due modelli dove abbiamo utilizzato tutte le features, il RandomForest ha mostrato i risultati migliori complessivamente. Rispetto al GradientBoosting, il RandomForest ha ottenuto una prestazione superiore nella precision della classe 1 (potabile), la quale risulta più importante rispetto alla recall in quanto evitare falsi positivi è determinante per il progetto.
 
 ## Conclusione
-In conclusione, dopo aver testato quattro modelli, due con tutte le features e due con soltanto quattro features selezionate tramite il chi-square test, il modello *RandomForest* ha ottenuto le migliori prestazioni. Pertanto, abbiamo scelto di utilizzare il modello addestrato con tutte le features a disposizione.<br><br>
+In conclusione, dopo aver testato quattro modelli, due con tutte le features e due con soltanto quattro features selezionate tramite il chi-square test, il modello *RandomForest* ha ottenuto le migliori prestazioni. Pertanto, abbiamo scelto di utilizzare il modello addestrato con tutte le features a disposizione.<br>
 
-Tuttavia, il modello ha comunque mostrato problematiche nelle prestazioni a causa delle caratteristiche stesse del dataset fornito.
-Questo ci suggerisce che il modello potrebbe non essere sempre in grado di individuare correttamente la classe.
+Tuttavia, il modello ha comunque mostrato problematiche nelle prestazioni a causa delle caratteristiche stesse del dataset fornito. Questo ci suggerisce che il modello potrebbe non essere sempre in grado di individuare correttamente la classe.
