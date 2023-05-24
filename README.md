@@ -43,5 +43,5 @@ In aggiunta, è possibile notare come il dataset contenga diversi **outliers**, 
 ## Correlazioni
 Utilizzando la matrice di correlazione possiamo ottenere la relazione tra le variabili del dataset, con valori che possono variare tra -%1% e $1$, con il valore %0% che indica assenza di correlazione.
 <p align="left">
-<img src="images/outliers.png" width="1000" height="500"/>
+<img src="images/matrice.png" width="858" height="612"/>
 </p>
