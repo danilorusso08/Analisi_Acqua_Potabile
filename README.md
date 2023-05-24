@@ -59,11 +59,7 @@ Come metrica utlizziamo l'accuracy che indica il numero di previsioni corrette s
 Per il modello $1$ verranno testati $5$ diversi algoritmi con tutte le features del dataset a disposizione, Logistic Regression, RandomForest, K-nearest neighbors, Decision Tree e Gradient Boosting, tra questi $5$ ci concentremo sui $2$ che hanno avuto i migliori risultati rispetto all'accuracy,nello specifico RandomForest e Gradient Boosting e effettueremo il tuning degli iperparametri.
 Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il GradientBoosting, più i seguenti valori per la matrice di confusione e precision, recall e f1 score.
 **Random Forest**
-<divstyle='diplay:flex'>
-  <div class="column">
-    <img src="images/cmatrix_rf.png" width="507" height="432" style='flex:33.33% padding:5px'>
-  </div>
-  <div class="column">
-    <img src="images/cmatrix_rf.png" width="507" height="432" style='flex:33.33% padding:5px'>
-  </div>
-</div>
+<p align='center'>
+  <img src="images/cmatrix_rf.png" width="250" height="432" >
+  <img src="images/cmatrix_rf.png" width="250" height="432" >
+</p>
