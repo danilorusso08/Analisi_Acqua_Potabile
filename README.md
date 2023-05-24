@@ -90,5 +90,5 @@ Tra i due modelli dove abbiamo utilizzato tutte le features, il RandomForest ha 
 ## Conclusione
 In conclusione, dopo aver testato quattro modelli, due con tutte le features e due con soltanto quattro features selezionate tramite il chi-square test, il modello *RandomForest* ha ottenuto le migliori prestazioni. Pertanto, abbiamo scelto di utilizzare il modello addestrato con tutte le features a disposizione.<br><br>
 
-Tuttavia, il modello ha comunque mostrato problematiche nelle prestazioni a causa delle caratteristiche stesse del dataset fornito.<br>
+Tuttavia, il modello ha comunque mostrato problematiche nelle prestazioni a causa delle caratteristiche stesse del dataset fornito.
 Questo ci suggerisce che il modello potrebbe non essere sempre in grado di individuare correttamente la classe.
