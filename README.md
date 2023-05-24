@@ -69,6 +69,8 @@ Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il G
   <img src="images/rep_gb.png" width="350" height="150">
 </p>
 
+Tra i due modelli dove abbiamo utilizzato tutte le features, il RandomForest ha mostrato i risultati migliori complessivamente. Rispetto al GradientBoosting, il RandomForest ha ottenuto una prestazione superiore nella precision della classe 1 (potabile), la quale risulta più importante rispetto alla recall in quanto evitare falsi positivi è determinante per il progetto.
+
 ## Modello 2
 Per il modello $2$ abbiamo eseguito la stessa procedura con la differenza di aver usato solo $4$ features, tra gli stessi $5$ modelli i migliori sono risultati il Gradient Boosting e Logistic Regression ai quali è stato fatto il tuning degli iperparametri.
 Ottenendo una accuracy del 64% per il Gradient Boosting e 61% per la Logistic Regression ed i seguenti valori per la matrice di confusione, precision, recall e f1 score.
@@ -82,3 +84,11 @@ Ottenendo una accuracy del 64% per il Gradient Boosting e 61% per la Logistic Re
   <img src="images/rep_gb2.png" width="350" height="150" hspace='35'>
   <img src="images/rep_lr2.png" width="350" height="150">
 </p>
+
+Tra i due modelli dove abbiamo utilizzato tutte le features, il RandomForest ha mostrato i risultati migliori complessivamente. Rispetto al GradientBoosting, il RandomForest ha ottenuto una prestazione superiore nella precision della classe 1 (potabile), la quale risulta più importante rispetto alla recall in quanto evitare falsi positivi è determinante per il progetto.
+
+## Conclusione
+In conclusione, dopo aver testato quattro modelli, due con tutte le features e due con soltanto quattro features selezionate tramite il chi-square test, il modello *RandomForest* ha ottenuto le migliori prestazioni. Pertanto, abbiamo scelto di utilizzare il modello addestrato con tutte le features a disposizione.<br><br>
+
+Tuttavia, il modello ha comunque mostrato problematiche nelle prestazioni a causa delle caratteristiche stesse del dataset fornito.<br>
+Questo ci suggerisce che il modello potrebbe non essere sempre in grado di individuare correttamente la classe.
