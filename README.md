@@ -54,3 +54,6 @@ Relazione confermata anche dal Chi-square test, che indica la dipendenza tra var
 ## Modello Dummy
 Utilizzando il modello Dummy randomico otteniamo un livello base prestazionale dei modelli, utile quindi per valutare la bontà dei reali modelli.
 Come metrica utlizziamo l'accuracy che indica il numero di previsioni corrette sulle totali fatte ed otteniamo un valore di circa il $50$% di previsioni corrette.
+
+## Modello 1
+Per il modello $1$ verranno testati $5$ diversi algoritmi con tutte le features del dataset a disposizione, Logistic Regression, RandomForest, K-nearest neighbors, Decision Tree e Gradient Boosting, tra questi $5$ ci concentremo sui $2$ che hanno avuto i migliori risultati rispetto all'accuracy,nello specifico RandomForest e Gradient Boosting e effettueremo il tuning degli iperparametri
