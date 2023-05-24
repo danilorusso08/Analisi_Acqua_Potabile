@@ -69,4 +69,8 @@ Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il G
     <img src="images/cmatrix_rf.png" width="507" height="432" style="margin-left: 5px;">
   </div>
 </div>
+<div align="center">
+  <img src="images/cmatrix_rf.png" width="507" height="432" style="display: block; margin-bottom: 10px;">
+  <img src="images/cmatrix_rf.png" width="507" height="432" style="display: block; margin-top: 10px;">
+</div>
 
