@@ -57,7 +57,7 @@ Come metrica utlizziamo l'accuracy che indica il numero di previsioni corrette s
 
 ## Modello 1
 Per il modello $1$ verranno testati $5$ diversi algoritmi con tutte le features del dataset a disposizione, Logistic Regression, RandomForest, K-nearest neighbors, Decision Tree e Gradient Boosting, tra questi $5$ ci concentremo sui $2$ che hanno avuto i migliori risultati rispetto all'accuracy,nello specifico RandomForest e Gradient Boosting e effettueremo il tuning degli iperparametri.
-Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il GradientBoosting, più i seguenti valori per la matrice di confusione e precision, recall e f1 score.
+Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il GradientBoosting, più i seguenti valori per la matrice di confusione, precision, recall e f1 score.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Random Forest**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Gradient Boosting**
 <p align='left'>
@@ -67,4 +67,18 @@ Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il G
 <p align='left'>
   <img src="images/rep_rf.png" width="350" height="150" hspace='35'>
   <img src="images/rep_gb.png" width="350" height="150">
+</p>
+
+## Modello 2
+Per il modello $2$ abbiamo eseguito la stessa procedura con la differenza di aver usato solo $4$ features, tra gli stessi $5$ modelli i migliori sono risultati il Gradient Boosting e Logistic Regression ai quali è stato fatto il tuning degli iperparametri.
+Ottenendo una accuracy del 64% per il Gradient Boosting e 61% per la Logistic Regression ed i seguenti valori per la matrice di confusione, precision, recall e f1 score.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Gradient Boosting**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Logistic Regression**
+<p align='left'>
+  <img src="images/cmatrix_gb2.png" width="350" height="300" hspace='35'>
+  <img src="images/cmatrix_lr2.png" width="350" height="300">  
+</p>
+<p align='left'>
+  <img src="images/rep_gb2.png" width="350" height="150" hspace='35'>
+  <img src="images/rep_lr2.png" width="350" height="150">
 </p>
