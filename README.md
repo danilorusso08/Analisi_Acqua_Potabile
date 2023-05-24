@@ -11,7 +11,7 @@ In questo progetto, l'obiettivo è quello di costruire un modello che determini 
 
 ## Analisi
 Il dataset è composto da $9$ features più la classe target, nello specifico:
-- ph: Indica il ph dell'acqua (0 to 14).
+- ph: Indica il ph dell'acqua (0-14).
 - Hardness: Capacità dell'acqua di precipitare in sapone mg/L.
 - Solids: Solidi totali disciolti in ppm.
 - Chloramines: Quantità di Clorammine in ppm.
@@ -26,7 +26,7 @@ Il dataset è composto da $9$ features più la classe target, nello specifico:
 <img src="images/Distribuzione2.png" width="1000" height="845"/>
 </p>
 
-Nello specifico nella visualizzazione delle distribuzioni è evidente lo sbilanciamento della classe target:
+Nello specifico nella visualizzazione delle distribuzioni è evidente lo sbilanciamento della **classe target**:
 
 <p align="left">
 <img src="images/target.png" width="450" height="340"/>
@@ -34,6 +34,14 @@ Nello specifico nella visualizzazione delle distribuzioni è evidente lo sbilanc
 
 Questo sbilanciamento della classe target, potrebbe compromettere il modello nel caso in cui si eseguisse un campionamento casuale (random sampling), per ovviare a questo problema viene utilizzato come campionamento lo **startified sampling** che tiene conto della distribuzione delle etichette di classe.
 
+
+In aggiunta, è possibile notare come il dataset contenga diversi **outliers**, che tramite l'algoritmo di *IsolationForest*, possiamo stimare intorno al $10$% dei dati totali del dataset. 
+<p align="left">
+<img src="images/outliers.png" width="1000" height="500"/>
+</p>
+
+## Correlazioni
+Utilizzando la matrice di correlazione possiamo ottenere la relazione tra le variabili del dataset, con valori che possono variare tra -%1% e $1$, con il valore %0% che indica assenza di correlazione.
 <p align="left">
 <img src="images/outliers.png" width="1000" height="500"/>
 </p>
