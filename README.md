@@ -7,7 +7,7 @@ In questo progetto, l'obiettivo è quello di costruire un modello che determini 
 - Individuare eventuali correlazioni tra le features e la classe target.
 - Creare un modello *Dummy* randomico per stabilire un livello base di prestazioni.
 - Creare il milgiore modello di classificazione utilizzando tutte le features a disposizione (Modello1).
-- Creare il milgiore modello di classificazione utilizzando le migliori quattro features del dataset (Modello2).
+- Creare il milgiore modello di classificazione utilizzando le migliori quattro features (Modello2).
 
 ## Analisi
 Il dataset è composto da $9$ features più la classe target, nello specifico:
@@ -50,3 +50,7 @@ Relazione confermata anche dal Chi-square test, che indica la dipendenza tra var
 <p align="left">
 <img src="images/chitest.png" width="550" height="93"/>
 </p>
+
+## Modello Dummy
+Utilizzando il modello Dummy randomico otteniamo un livello base prestazionale dei modelli, utile quindi per valutare la bontà dei reali modelli.
+Come metrica utlizziamo l'accuracy che indica il numero di previsioni corrette sulle totali fatte ed otteniamo un valore di circa il $50$% di previsioni corrette.
