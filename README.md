@@ -56,4 +56,12 @@ Utilizzando il modello Dummy randomico otteniamo un livello base prestazionale d
 Come metrica utlizziamo l'accuracy che indica il numero di previsioni corrette sulle totali fatte ed otteniamo un valore di circa il $50$% di previsioni corrette.
 
 ## Modello 1
-Per il modello $1$ verranno testati $5$ diversi algoritmi con tutte le features del dataset a disposizione, Logistic Regression, RandomForest, K-nearest neighbors, Decision Tree e Gradient Boosting, tra questi $5$ ci concentremo sui $2$ che hanno avuto i migliori risultati rispetto all'accuracy,nello specifico RandomForest e Gradient Boosting e effettueremo il tuning degli iperparametri
+Per il modello $1$ verranno testati $5$ diversi algoritmi con tutte le features del dataset a disposizione, Logistic Regression, RandomForest, K-nearest neighbors, Decision Tree e Gradient Boosting, tra questi $5$ ci concentremo sui $2$ che hanno avuto i migliori risultati rispetto all'accuracy,nello specifico RandomForest e Gradient Boosting e effettueremo il tuning degli iperparametri.
+Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il GradientBoosting, più i seguenti valori per la matrice di confusione e precision, recall e f1 score.
+**Random Forest**
+<div float="left">
+<img src="images/cmatrix_rf.png" width="507" height="432"/>
+</div>
+<div float="left">
+<img src="images/cmatrix_rf.png" width="507" height="432"/>
+</div>
