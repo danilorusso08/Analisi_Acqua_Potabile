@@ -60,8 +60,14 @@ Per il modello $1$ verranno testati $5$ diversi algoritmi con tutte le features 
 Ottenendo quindi una accuracy del $66$% per il RandomForest e del $64$% per il GradientBoosting, più i seguenti valori per la matrice di confusione e precision, recall e f1 score.
       **Random Forest**                        **Gradient Boosting**
 <p align='left'>
-  <img src="images/cmatrix_rf.png" width="350" height="300" hspace='35'>
-  <img src="images/cmatrix_gb.png" width="350" height="300">
+  <div>
+     Random
+     <img src="images/cmatrix_rf.png" width="350" height="300" hspace='35'>
+  </div> 
+  <div>
+     iao
+     <img src="images/cmatrix_gb.png" width="350" height="300">
+  <div>
 </p>
 <p align='left'>
   <img src="images/rep_rf.png" width="350" height="140" hspace='35'>
