@@ -45,3 +45,6 @@ Utilizzando la matrice di correlazione possiamo ottenere la relazione tra le var
 <p align="left">
 <img src="images/matrice.png" width="858" height="612"/>
 </p>
+Dalla matrice possiamo notare come vi sia una bassa correlazione tra le variabili e la classe target.<br>
+Relazione confermata anche dal Chi-square test, che indica la dipendenza tra variabile target e features se il risultato è al di sotto del valore soglia ($0.05$), ma anche in questo caso otteniamo dei valori che indicano una bassa correlazione.
+
